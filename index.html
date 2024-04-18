@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Jquery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="background">
+        <img src="./image/image-background-login.jpg" alt="">
+        <div class="caixa-principal">
+            <div class="caixa-secundaria">
+                <h1 class="h1">Faça seu cadastro preenchendo o formulario</h1>
+                <form>
+                    <div>
+                        <label>Nome</label>
+                        <input placeholder="Digite seu nome completo" required type="text">
+                    </div>
+                    <div>
+                        <label>E-mail</label>
+                        <input placeholder="Digite seu melhor e-mail" required type="email">
+                    </div>
+                    <div>
+                        <label>Telefone</label>
+                        <input placeholder="(00) 00000-0000" id="tel-input" required type="tel">
+                    </div>
+                    <div>
+                        <label>CPF</label>
+                        <input placeholder="000.000.000-00" id="cpf-input" required type="tel">
+                    </div>
+                    <div>
+                        <label>Endereço</label>
+                        <input placeholder="Digite seu endereço" required type="text">
+                    </div>
+                    <div>
+                        <label>CEP</label>
+                        <input placeholder="00000-000" id="cep-input" required type="tel">
+                    </div>
+                    <button type="submit">enviar</button>
+                    <h2>Seu cadastro foi enviado</h2>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
